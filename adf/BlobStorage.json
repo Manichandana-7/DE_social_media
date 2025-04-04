@@ -1,0 +1,16 @@
+{
+	"name": "BlobStorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"sasUri": "https://sgtrail.blob.core.windows.net/sql-data",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNDI0ZWNiYi0yMTc3LTQ3ZGYtODVjMC1jM2U2MDVkODQyODMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "My-ir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "DS_snowflake_sink_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Snowflake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "DBO",
+			"table": "COUNTRYREGION"
+		}
+	}
+}

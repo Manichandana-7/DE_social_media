@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: data_from_snowflake
+    database: DE_PROJECT
+    schema: dbo
+    tables: 
+      - name: countryregion
+      - name: customer
+      - name: products
+      - name: transactions

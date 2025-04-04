@@ -1,0 +1,9 @@
+{
+	"name": "DF-linking",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4d867476-cc1c-4b4c-8050-03cb841eb869",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
